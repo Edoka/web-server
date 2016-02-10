@@ -24,7 +24,7 @@ app.use(middleware.logger);
 // /about
 //About Us
 app.get('/about',middleware.requireAuthentication, function(req, res) {
-	res.send('About Us');
+	res.send('About Us   GITgit');
 });
 
 app.use(express.static(__dirname + '/public'));
